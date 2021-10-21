@@ -1,0 +1,15 @@
+.payment{
+   padding: 60px 0 120px 0;
+}
+
+.payment-methods{
+   background: #F5F5F5;
+   height: 150px;
+   padding: 0 15%;
+   position: relative;
+   display: flex;
+   align-items: center;
+}
+
+
+

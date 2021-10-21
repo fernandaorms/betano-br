@@ -1,0 +1,28 @@
+.btn-cta{
+   width: 394px;
+   height: 56px;
+
+   background: var(--primary-color);
+   opacity: 0.9;
+   border-radius: 10px;
+
+   font-size: 18px;
+   letter-spacing: 2px;
+   text-transform: uppercase;
+   color: #fff;   
+   cursor: pointer;
+
+   transition-property: transform, background;
+   transition-timing-function: ease;
+   transition-duration: .5s, 1s;
+}
+
+.btn-cta:hover{
+   transform: scale(1.2);
+   background: var(--ternary-color);
+}
+
+.btn--focused{
+   transform: scale(1.1);
+}
+

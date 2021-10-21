@@ -1,0 +1,42 @@
+.foot{
+   padding-top: 30px;
+   
+}
+
+.copy{
+   background: #13171D;
+   height: 70px;
+   padding: 0 10%;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.f__text{
+   color: #546375;
+   font-weight: 300;
+   font-size: 14px;  
+   letter-spacing: 0.02em;
+}
+
+.f__text--center{
+   text-align: center;
+   margin-bottom: 60px;
+}
+
+.social{
+   text-align: center;
+   margin-bottom: 30px;
+}
+
+.social img{
+   height: 45px;
+   cursor: pointer;
+
+   transition: transform .3s ease-out;
+}
+
+.social img:hover{
+   transform: scale(1.5);
+}
+

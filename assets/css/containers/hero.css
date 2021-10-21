@@ -1,0 +1,44 @@
+.hero{
+   display: flex;
+   flex-direction: column;
+   
+   height: 680px;
+   padding: 0 10%;
+}
+
+
+.anoucement{
+   margin-top: 60px;
+}
+.title-container{
+   display: inline-block;
+   max-width: 460px;
+   
+}
+
+.promotion{
+   display: flex;
+   flex-direction: column;
+   margin-top: 90px;   
+}
+
+.text-container{
+   display: inline-block;
+   max-width: 432px;
+   margin-bottom: 60px;
+}
+
+.hero__text{
+   font-size: 26px;
+   line-height: 40px;
+   color: var(--primary-color-light);
+   text-shadow: 2px 2px rgba(0, 0, 0, 1);
+   
+}
+
+.hero__text span{
+   font-size: 34px;
+   line-height: 40px;
+   color: var(--primary-color);
+}
+

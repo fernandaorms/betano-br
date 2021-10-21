@@ -1,0 +1,49 @@
+.payment .item img{
+   height: 45px;
+}
+
+.payment .owl-prev, .payment .owl-next{
+   position: absolute;
+   top: -45%;
+}
+
+.payment .owl-prev{
+   left: -10%;
+}
+
+.payment .owl-next{
+   right: -10%;
+}
+.payment .owl-prev span, .payment .owl-next span{
+   font-size: 80px;
+   font-weight: bolder;
+   color: var(--primary-color);
+
+}
+
+.owl-prev:hover, .owl-next:hover{
+   background:none !important;
+   transform: scale(1.3);
+}
+
+
+.teams-image .item{
+      width: 70px;
+}
+
+.teams-image .owl-prev, .teams-image .owl-next{
+   position: absolute;
+   top: 0;
+}
+
+.teams-image .owl-prev{
+   left: -7%;
+}
+
+.teams-image .owl-next{
+   right: -7%;
+}
+.teams-image .owl-prev span, .teams-image .owl-next span{
+   font-size: 50px;
+   color: var(--primary-color-light);
+}
